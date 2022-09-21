@@ -22,6 +22,7 @@ body { margin: o;
     align-items: center;
     min-height:285px; 
     border-radius: 3px;
+    margin-top: 80px;
 }
 
 #input{
