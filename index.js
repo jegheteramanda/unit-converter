@@ -22,7 +22,7 @@ convertBtn.addEventListener("click", function(){
   | ${input} gallons = ${volumeInvert.toFixed(3)} liters`
 
   document.getElementById("result-mass").innerHTML = `${input} kgs = ${massRes.toFixed(3)} pounds 
-  | ${input} pouns = ${massInvert.toFixed(3)} kgs`
+  | ${input} pounds = ${massInvert.toFixed(3)} kgs`
   
 })
 
