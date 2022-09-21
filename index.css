@@ -9,7 +9,14 @@ body { margin: o;
 }
 
 
-
+#container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /*------------- input -------------*/
 #input-el{
@@ -20,9 +27,10 @@ body { margin: o;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height:285px; 
+    height: 10em;
     border-radius: 3px;
-    margin-top: 80px;
+    margin-top: 1.3em;
+    width: 80%;
 }
 
 #input{
@@ -31,13 +39,15 @@ body { margin: o;
     background-color: #6943FF;
     text-align: center;
     border: 2px solid #B295FF;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-bottom: 20px;
-    width: 117px;
-    height: 83px;
+    width: 2.2em;
+    height: 1.5em;
     padding-top: 15px;
 
 }
+
+
 
 input[type=number]::-webkit-inner-spin-button { 
     background: #eee url('http://i.stack.imgur.com/YYySO.png') no-repeat 50% 50%;  
@@ -46,8 +56,10 @@ input[type=number]::-webkit-inner-spin-button {
     padding: 4px;
     position: relative;
     right: 4px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
+
+
 
 input:focus {
     outline: none;
@@ -59,9 +71,8 @@ input:focus {
     font-size: 16px;
     font-weight: 600;
     border: none;
-    width: 125px;
-    height: 42px;
-    left: 217px;
+    width: 8.2em;
+    height: 2.2em;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
 }
@@ -78,23 +89,18 @@ input:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:550px;
-    height:730px;
+    width: 80%;
+    margin: 0.5em;
    
 
 }
 
 #result-el{
-    padding: 24px ;
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    width: 500px;
-    height: 100px;
+    padding: 0.1em; 
+    margin: 0.5em;
+    width: 100%;
+    height: 8em;
     background: #273549;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     border-radius: 3px;
 
 }
