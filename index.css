@@ -1,0 +1,105 @@
+body { margin: o;
+    background-color: #1F2937;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+
+
+
+
+/*------------- input -------------*/
+#input-el{
+    background-color: #6943FF;
+    font-family: 'Inter', sans-serif ;
+    font-weight: 800;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height:285px; 
+    border-radius: 3px;
+}
+
+#input{
+    font-size: 55px;
+    color: #fff;
+    background-color: #6943FF;
+    text-align: center;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 117px;
+    height: 83px;
+    padding-top: 15px;
+
+}
+
+input[type=number]:hover::-webkit-inner-spin-button { 
+    background: #eee url('http://i.stack.imgur.com/YYySO.png') no-repeat 50% 50%;  
+    width: 10px;
+    height: 40px;
+    padding: 4px;
+    position: relative;
+    right: 4px;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+ }
+
+#convert-btn{
+    color: #3D3D3D;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    width: 125px;
+    height: 42px;
+    left: 217px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+
+/*------------- results -------------*/
+
+#results{
+    color:#CCC1FF;
+    text-align: center;
+    font-family: 'Inter', sans-serif ;
+    font-weight: 800;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:550px;
+    height:730px;
+   
+
+}
+
+#result-el{
+    padding: 24px ;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 500px;
+    height: 100px;
+    background: #273549;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3px;
+
+}
+
+#result-length, #result-volume, #result-mass{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
