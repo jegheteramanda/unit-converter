@@ -38,7 +38,7 @@ body { margin: o;
 
 }
 
-input[type=number]:hover::-webkit-inner-spin-button { 
+input[type=number]::-webkit-inner-spin-button { 
     background: #eee url('http://i.stack.imgur.com/YYySO.png') no-repeat 50% 50%;  
     width: 10px;
     height: 40px;
